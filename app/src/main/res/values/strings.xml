@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final_Project</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_uppercase">LOGIN</string>
+    <string name="sign_up_uppercase">SIGN UP</string>
+</resources>
