@@ -4,4 +4,29 @@
     <string name="password">Password</string>
     <string name="login_uppercase">LOGIN</string>
     <string name="sign_up_uppercase">SIGN UP</string>
+    <string name="clear_uppercase">CLEAR</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="server_url">Server URL</string>
+    <string name="save_uppercase">SAVE</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="duration_hours">Duration (Hours)</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_time">Due Time</string>
+    <string name="add_uppercase">ADD</string>
+    <string name="update_uppercase">UPDATE</string>
+    <string name="back_uppercase">BACK</string>
+
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="delete">Delete</string>
+
+    <string name="new_tasks">New</string>
+    <string name="started_tasks">Started</string>
+    <string name="finished_tasks">Finished</string>
+    <string name="all_tasks">All</string>
+    <string name="log_out">Log out</string>
 </resources>

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="baghi.naeem.com.final_project">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.SignUpActivity" />
+        <activity android:name=".activities.TasksActivity" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.AddTaskActivity" />
+        <activity android:name=".activities.TaskActivity" />
+        <activity android:name=".activities.EditTaskActivity" android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

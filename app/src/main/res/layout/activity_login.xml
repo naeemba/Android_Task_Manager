@@ -41,4 +41,19 @@
         android:layout_width="0dp"
         android:layout_height="60dp" />
 
+    <EditText
+        android:id="@+id/login_server_url"
+        android:inputType="textUri"
+        app:layout_constraintTop_toBottomOf="@id/login_signup"
+        android:hint="@string/server_url"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/login_save_server_url"
+        app:layout_constraintTop_toBottomOf="@id/login_server_url"
+        android:text="@string/save_uppercase"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
 </android.support.constraint.ConstraintLayout>

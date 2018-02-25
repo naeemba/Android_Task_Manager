@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tasks_menu_new"
+        android:title="@string/new_tasks"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/tasks_menu_started"
+        android:title="@string/started_tasks"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/tasks_menu_finished"
+        android:title="@string/finished_tasks"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/tasks_menu_all"
+        android:title="@string/all_tasks"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/tasks_menu_log_out"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+
+</menu>
